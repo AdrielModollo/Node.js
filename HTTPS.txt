@@ -1,0 +1,7 @@
+Para estes outros cenários, existe o HTTPS, que basicamente é o HTTP comum, porém com uma camada adicional de 
+segurança/criptografia que antes era SSL, mas posteriormente passou a ser também TLS. É muito comum que estas 
+duas siglas sejam encontradas juntas como SSL/TLS por se tratarem da mesma questão de segurança. Sendo assim, 
+temos dois termos:
+
+HTTP: HyperText Transfer Protocol
+SSL/TLS: Secure Sockets Layer / Transport Layer Security
