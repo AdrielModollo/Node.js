@@ -1,0 +1,5 @@
+Para definir as regras de comunicação entre cliente e servidor, existe o protocolo HTTP:
+
+Cliente  <--- HTTP ---> Servidor Java  <--- SQL ---> Banco de dados
+
+Exemplo: https://s3.amazonaws.com/caelum-online-public/http/arquitetura_alura.png
