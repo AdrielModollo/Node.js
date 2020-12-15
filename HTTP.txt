@@ -3,3 +3,16 @@ Para definir as regras de comunicação entre cliente e servidor, existe o proto
 Cliente  <--- HTTP ---> Servidor Java  <--- SQL ---> Banco de dados
 
 Exemplo: https://s3.amazonaws.com/caelum-online-public/http/arquitetura_alura.png
+
+A arquitetura Cliente-Servidor
+Um protocolo é um conjunto de regras
+HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na internet.
+HTTP é o protocolo mais importante da Internet
+
+Para estes outros cenários, existe o HTTPS, que basicamente é o HTTP comum, porém com uma camada adicional de 
+segurança/criptografia que antes era SSL, mas posteriormente passou a ser também TLS. É muito comum que estas 
+duas siglas sejam encontradas juntas como SSL/TLS por se tratarem da mesma questão de segurança. Sendo assim, 
+temos dois termos:
+
+HTTP: HyperText Transfer Protocol
+SSL/TLS: Secure Sockets Layer / Transport Layer Security
