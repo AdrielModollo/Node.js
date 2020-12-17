@@ -22,6 +22,10 @@ npm -v
 npm init <- Inicilializa nosso projeto
 npm install express <- Instala nosso pacote com frameworks
 
-node index.js <- executa nosso app node.js, chamando nosso arquivo index.js.
+node index.js <- executa nosso app node.js, chamando nosso arquivo index.js
+
+npm install --save-dev nodemon <- instala biblioteca para reiniciar nosso servidor automático
 
 package.json <-Contém todas informações de nosso projeto
+
+Dentro de package.json o comando "start": "node index.js", <- padronizado a inicialização do nosso node
