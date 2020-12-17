@@ -1,10 +1,8 @@
-const express = require('express') // chama nosso pacote express
+const customExpress = require('./config/customExpress') // importa nossas config dentro do customExpress
 
-const app = express() // cria nosso app express
+const app = customExpress() //nosso app é igual à execução da nossa config customExpress
 
-app.listen(3000, () => console.log('Servidor rodando na porta 3000')) //Porta onde vai receber a requisição do app
+app.listen(3000, () => console.log('servidor rodando na porta 3000'))//Porta onde vai receber a requisição do app
 
-app.get('/atendimentos', (req, res) => res.send('Você está na rota de atendimentos e está utilizando um GET')) //Passa o caminho da rota que será executado
-// '/' <- caminho ou rota ||||||| req <- faz a requisão |||||| res <- responde a requisição
 
 
