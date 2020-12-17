@@ -1,0 +1,22 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "\"# Node.js\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrielModollo/Node.js.git"
+  },
+  "author": "Adriel Modollo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrielModollo/Node.js/issues"
+  },
+  "homepage": "https://github.com/AdrielModollo/Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
