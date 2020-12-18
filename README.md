@@ -32,3 +32,5 @@ package.json <-Contém todas informações de nosso projeto
 npm install consign <- Agrupa todas nossas rotas e coloca tudo isso dentro no app
 
 npm install body-parser <- Comanda para instalar body-parser para conseguir ler os dados que estamos recebendo no body.
+
+npm install mysql <- Instala biblioteca do banco de dados
