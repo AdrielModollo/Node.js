@@ -38,7 +38,7 @@ class Atendimento {
             if(erro) {
                 res.status(400).json(erro)
             } else {
-               res.status(201).json(resultados)
+               res.status(201).json(atendimento)
             }
         })
         }
@@ -47,11 +47,11 @@ class Atendimento {
     lista(res){
         const sql = 'SELECT * FROM Atendimentos'
 
-        conexao.query(sql, (erro) => {
+        conexao.query(sql, (erro, resultados) => {
             if(erro) {
                 res.status(400).json(erro)
             } else {
-                res.status(200).json
+                res.status(200).json(resultados)
             }
         })
     }
@@ -70,7 +70,7 @@ class Atendimento {
         })
     }
 
-    //MÉTODO PATCH ALTERA TODOS OS DADOS
+    //MÉTODO PATCH ALTERA OBJETOS ESPECÍFICO || PUT ALTERA TODOS OBJETOS
     altera(id, valores, res) {
         if(valores.data){
             valores.data = moment(valores.data, 'DD/MM/YYYY').format('YYYY-MM-DD HH:MM:SS') 
@@ -81,8 +81,20 @@ class Atendimento {
             if(erro) {
                 res.status(400).json(erro)
             } else {
-                res.status(200).json(resultados)
+                res.status(200).json({...valores, id})
             } 
+        })
+    }
+
+    deleta(id, res) {
+        const sql = 'DELETE FROM Atendimentos WHERE id=?'
+
+        conexao.query(sql, id, (erro, resultados) => {
+            if(erro) {
+                res.status(400).json(erro)
+            } else {
+                res.status(200).json({id})
+            }
         })
     }
 }
