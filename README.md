@@ -30,3 +30,5 @@ npm install --save-dev nodemon <- instala biblioteca para reiniciar nosso servid
 package.json <-Contém todas informações de nosso projeto
 
 npm install consign <- Agrupa todas nossas rotas e coloca tudo isso dentro no app
+
+npm install body-parser <- Comanda para instalar body-parser para conseguir ler os dados que estamos recebendo no body.
