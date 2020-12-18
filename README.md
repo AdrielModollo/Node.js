@@ -34,3 +34,5 @@ npm install consign <- Agrupa todas nossas rotas e coloca tudo isso dentro no ap
 npm install body-parser <- Comanda para instalar body-parser para conseguir ler os dados que estamos recebendo no body.
 
 npm install mysql <- Instala biblioteca do banco de dados
+
+npm install moment <- Instala uma biblioteca que faz a tratativa de datas
