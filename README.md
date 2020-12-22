@@ -38,3 +38,16 @@ npm install mysql <- Instala biblioteca do banco de dados
 npm install moment <- Instala uma biblioteca que faz a tratativa de datas
 
 Esse site possuí todos os status de HTTPS e seus respectivos códigos: https://httpstatuses.com
+
+=================TESTE==============================
+npm start
+
+Utilizado Insominia Designer para teste, tipo JSON:
+Tipo: POST
+Local: localhost:3000/pet
+Comado:
+{
+    "nome": "Harry",
+    "imagem": "./assets/EventLoop.png"
+}
+====================================================
