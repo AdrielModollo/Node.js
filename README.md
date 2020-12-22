@@ -59,7 +59,8 @@ Comado:
     "imagem": "./assets/EventLoop.png"
 }
 
-#Teste 2
+
+#Teste2
 
 Utilizado Insominia Designer para teste, tipo JSON:
 
@@ -77,5 +78,3 @@ Comado:
     "data": "25/02/2022",
 	"dataCriacao": "24/02/2022"
 }
-
-====================================================
