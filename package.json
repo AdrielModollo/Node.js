@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juunegreiros/nodejs-api-rest.git"
+    "url": "git+https://github.com/AdrielModollo/Node.js"
   },
-  "author": "juliana negreiros",
+  "author": "Adriel Modollo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juunegreiros/nodejs-api-rest/issues"
+    "url": "https://github.com/AdrielModollo/Node.js/issues"
   },
-  "homepage": "https://github.com/juunegreiros/nodejs-api-rest#readme",
+  "homepage": "https://github.com/AdrielModollo/Node.js/blob/main/README.md",
   "dependencies": {
     "axios": "^0.19.1",
     "consign": "^0.1.6",
