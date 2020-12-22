@@ -43,11 +43,15 @@ Esse site possuí todos os status de HTTPS e seus respectivos códigos: https://
 npm start
 
 Utilizado Insominia Designer para teste, tipo JSON:
+
 Tipo: POST
+
 Local: localhost:3000/pet
+
 Comado:
 {
     "nome": "Harry",
     "imagem": "./assets/EventLoop.png"
 }
+
 ====================================================
