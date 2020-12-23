@@ -15,6 +15,9 @@ module.exports = app => {
        const atendimento = req.body
 
         Atendimento.adiciona(atendimento, res)
+            .then(atendimentoCadastrado => 
+                res.status(201).json(atendimentoCadastrado))
+            .catch(erro => res.status(400).json)
     }) 
 
     app.patch('/atendimentos/:id', (req, res) => {
