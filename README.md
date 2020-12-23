@@ -1,4 +1,4 @@
-#Node.js 
+# Node.js 
 
 Como funciona o node?
 O Node. js é um ambiente de execução na porta 80 padrão,baseado na pilha da web aberta (HTML, CSS e JS). Ou seja, é uma plataforma em que é possível criar 
@@ -11,7 +11,7 @@ Jogos multiplayer;
 Aplicações que demandam alta escabilidade;
 Servidores de streaming de dados;
 
-#Bibliotecas
+# Bibliotecas
 O que é NPM?
 O NPM, ou Node Package Manager, é um repositório online com a finalidade de publicação de projetos NodeJS de código aberto. 
 Podemos utilizar o npm como um utilitário de linhas de comando, interagindo com os repositórios e instalando os seus pacotes
@@ -44,7 +44,8 @@ npm install -- save axios <-Faz algumas requisições
 Esse site possuí todos os status de HTTPS e seus respectivos códigos: https://httpstatuses.com
 
 
-#Teste
+# Teste
+
 npm start
 
 Utilizado Insominia Designer para teste, tipo JSON:
@@ -60,7 +61,7 @@ Comado:
 }
 
 
-#Teste2
+# Teste2
 
 Utilizado Insominia Designer para teste, tipo JSON:
 
