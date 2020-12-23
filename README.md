@@ -11,6 +11,9 @@ Jogos multiplayer;
 Aplicações que demandam alta escabilidade;
 Servidores de streaming de dados;
 
+Qual a diferença entre comunicação assíncrona e síncrona?
+https://pt.stackoverflow.com/questions/51268/qual-a-diferença-entre-comunicação-assíncrona-e-síncrona#:~:text=As%20comunicações%20Síncrona%20e%20Assíncrona,tem%20suas%20vantagens%20e%20desvantagens.&text=Imaginemos%20que%20um%20emissor%20está,cada%20bola%20com%20uma%20letra.
+
 # Bibliotecas
 O que é NPM?
 O NPM, ou Node Package Manager, é um repositório online com a finalidade de publicação de projetos NodeJS de código aberto. 
