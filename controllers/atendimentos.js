@@ -2,6 +2,12 @@ const Atendimento = require('../models/atendimentos')
 
 module.exports = app => {
     app.get('/atendimentos', (req, res) => {
+        Atendimento.lista()
+            .then(resultados => res.json(resultados))
+            .catch(erros => res.status(400),json(erros))
+    })
+
+    app.get('/atendimentos', (req, res) => {
         Atendimento.lista(res)
     })
 
@@ -32,4 +38,6 @@ module.exports = app => {
 
         Atendimento.deleta(id, res)
     })
+
+
 }
