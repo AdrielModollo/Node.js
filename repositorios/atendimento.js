@@ -5,11 +5,12 @@ class Atendimento {
         const sql = 'INSERT INTO Atendimentos SET ?'
         return query(sql, atendimento)
     }
-    lista(){
+
+    lista() {
         const sql = 'SELECT * FROM Atendimentos'
 
         return query(sql)
-
     }
 }
+
 module.exports = new Atendimento()
